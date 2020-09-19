@@ -1,20 +1,16 @@
-h1{ 
-    color: #d1d1d1;
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
+
 /* CSS para id se usa # */
-#titulo, #sub-titulo{
-    text-align: center;
-}
 
 p { 
     border: solid px black;
 }
 
 /* CSS para class se usa . */
-p.promocao{
-    text-align: center;
-}
 
 strong{
     color: yellow;
@@ -29,9 +25,6 @@ strong{
     padding: 5px;
 }
 
-.desccurso{
-    text-align: center;
-}
 
 
 footer#rodape{
@@ -53,10 +46,6 @@ article p {
 /* todo p que foi filho direto de article*/
 article > b a {
     display: block;
-}
-
-section > p#descricao{
-    text-align: center;
 }
 
 
