@@ -12,138 +12,232 @@
         <!-- CSS em uma pag separada-->
         <link rel="stylesheet" href="CSS/style_semana4.css">
     </head>
-    <body class="bg-dark text-white">
+    <body class="text-white">
 
         <main id="principal">
     
-            <div class="container">
+            <div class="container-lg">
 
-                <h1 id="titulo" class="text-center border p-2 mt-3">  
-                    Cursos +TEC
-                </h1>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 id="titulo" class="text-center border rounded p-2 mt-3">  
+                            Cursos +TEC
+                        </h1>
+                    </div>
+                </div>
         
-                <h4 id="sub-titulo" class="text-center">
-                    A <em>Cursos +TEC</em> é a melhor escola técnica da região, possui cursos nas mais diversas áreas de Tecnologia. <br>Se você é apaixonado por pelo mundo tecnológico, está no lugar certo!
-                </h4>
+                <div class="row">
+                    <div class="col-lg-12 col-md-5 col-sm-12">
+                        <h4 id="sub-titulo" class="text-center">
+                            A <em>Cursos +TEC</em> é a melhor escola técnica da região, possui cursos nas mais diversas áreas de Tecnologia.
+                        </h4>
+
+                    </div>
+                    <div class="col-lg-12 col-md-7 col-sm-12">
+                        
+                        <figure>
+                            <img class="d-block" src="img/inicial.jpg" title="Venha aprender com a gente!" >
+                        </figure>
+                    </div>
+                </div>
+
+                <p class="pb-5 text-center">Se você é apaixonado por pelo mundo tecnológico, está no lugar certo!</p>
+                
     
-                <figure>
-                    <img src="img/inicial.jpg" title="Venha aprender com a gente!" >
-                </figure>
+                
         
-                <h4 class="final-pag">Conheça os Cursos Técnicos disponíveis:</h4>
+                <h4 class="p-3 text-center">Conheça os Cursos Técnicos disponíveis:</h4>
     
                 
                 <article>
     
-                    <b>
-                        <a href="#curso1" class="curso">Computação Gráfica</a>
-    
-                        <section id="curso1" class="modal">
-                            <a href="#fechar" title="Fechar" class="fechar">x</a>
-    
-                            <figure>
-                                <img src="img/Computação Gráfica.jpg">
-                            </figure>
-    
-                            <p class="desccurso text-center">
-                                - Criar logomarcas e tratar imagens para projeto visual; <br>
-                                - Fazer roteiros e captar material audiovisual para edição e pós-produção de vídeo; <br>
-                                - Criar cenários e personagens para produção de animação 3D; <br>
-                                - Desenhar projetos arquitetônicos e criar maquetes eletrônicas; <br>
-                                - Utilizar softwares do pacote Adobe, como Photoshop, Illustrator, Premiere Pro, Audition e After Effects, além de softwares como CorelDRAW, AutoCAD, Revit, 3Ds Max ou Maya, MudBox, Arnold Render e SketchUp
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <p class="text-info font-weight-bold" data-toggle="modal" data-target="#curso1">
+                                Computação Gráfica
                             </p>
-                        </section>
+                        </div>
     
-                        <a href="#curso2" class="curso">Desenvolvedor Web</a>
-    
-                        <section id="curso2" class="modal">
-                            <a href="#fechar" title="Fechar" class="fechar">x</a>
-    
-                            <figure>
-                                <img src="">
-                            </figure>
-                            
-                            <p class="desccurso text-center">
-                                - HTML, CSS e Scripts; <br>
-                                - Criar design de interface (wireframes) e protótipos;  <br>
-                                - Publicar, testar e realizar manutenção em aplicações web; <br>
-                                - Estruturar e implementar banco de dados; <br> 
-                                - Conceitos de camadas front end e back end; <br>
-                                - Utilizar softwares do pacote Adobe, como Illustrator e Photoshop, além de softwares como MS Project, Visio, entre outros <br>
+                        <div class="col-md-6 text-center">
+                            <p class="text-info font-weight-bold " data-toggle="modal" data-target="#curso2">
+                                Desenvolvedor Web
                             </p>
-                        </section>
+                        </div>
     
-                        <a href="#curso3" class="curso">Desenvolvimento de Aplicativos Computacionais</a>
-    
-                        <section id="curso3" class="modal">
-                            <a href="#fechar" title="Fechar" class="fechar">x</a>
-    
-                            <figure>
-                                <img src="img/Desenvolvimento de Aplicativos Computacionais.jpg">
-                            </figure>
-    
-                            <p class="desccurso text-center">
-                                - Desenvolver softwares para desktops e criar websites para internet; <br>
-                                - Realizar testes e implantação de softwares computacionais; <br>
-                                - Idealizar, analisar e planejar o desenvolvimento de softwares; <br>
-                                - Codificar scripts e desenvolver algoritmos que representam a lógica computacional; <br>
-                                - Manipular e otimizar imagens vetoriais, bitmaps gráficos e elementos visuais de navegação para web; <br>
-                                - Executar os processos de codificação, manutenção e documentação de softwares para desktops e para internet; <br>
-                                - Utilizar comandos de integração dos objetos de bancos de dados com o código construído para internet.
+                        <div class="col-md-6 text-center">
+                            <p class="text-info font-weight-bold " data-toggle="modal" data-target="#curso3">
+                                Desenvolvimento de Aplicativos Computacionais
                             </p>
-                        </section>
-    
-                        <a href="#curso4" class="curso">Informática para Internet</a>
-    
-                        <section id="curso4" class="modal">
-                            <a href="#" title="Fechar" class="fechar">x</a>
-    
-                            <figure>
-                                <img src="img/Informática para Internet.jpg">
-                            </figure>
-    
-                            <p class="desccurso text-center">
-                                - Criar e organizar interface gráfica para dispositivos móveis; <br>
-                                - Codificar, publicar e testar aplicações web; <br>
-                                - Documentar e realizar manutenção de aplicações web; <br>
-                                - Codificar aplicações para dispositivos móveis; <br> 
-                                - Estruturar e implementar banco de dados para aplicações web; <br>
-                                - Codificar acesso aos recursos de sistemas operacionais de dispositivos móveis; <br>
-                                - Utilizar softwares do pacote Adobe, como Illustrator e Photoshop, além de MS Project, SQL Server, Visio, entre outros
-                            </p>
-                        </section>
-                        <a href="#curso5" class="curso">Segurança em Redes de Computadores</a>
-    
-                        <section id="curso5" class="modal">
-                            <a href="#fechar" title="Fechar" class="fechar">x</a>
-    
-                            <figure>
-                                <img src="img/Segurança em Redes de Computadores.jpg">
-                            </figure>
-    
-                            <p class="desccurso text-center">
-                                - Instalar firewall e outros programas de proteção de dados; <br>
-                                - Monitorar ferramentas e serviços de certificados digitais; <br>
-                                - Identificar os principais ataques a servidores de redes; <br>
-                                - Fazer a gestão de redes e tecnologias de segurança; <br>
-                                - Utilizar softwares reconhecidos na área de tecnologia da informação, entre outros
-                            </p>
-                        </section>
+                        </div>
                         
-                    </b>
-                    
-                </div>
+                        <div class="col-md-6 text-center">
+                            <p class="text-info font-weight-bold " data-toggle="modal" data-target="#curso4">
+                                Informática para Internet
+                            </p>
+                        </div>
+                        
+                        <div class="col-md-6 text-center">
+                            <p class="text-info font-weight-bold " data-toggle="modal" data-target="#curso5">
+                                Segurança em Redes de Computadores
+                            </p>
+                        </div>
+
+                        <div class="col-md-6 text-center">
+                            <p class="text-info font-weight-bold " data-toggle="modal" data-target="#curso6">
+                                Programação de Jogos Digitais
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                    <div id="curso1" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-dark font-weight-bold text-center">Computação Gráfica</h5>
+                                </div>
+                                <div class="modal-body text-dark">
+                                    <figure>
+                                        <img class="d-block" src="img/Computação Gráfica.jpg">
+                                    </figure>
+                                    <p class="desccurso text-justify p-2">
+                                        - Criar logomarcas e tratar imagens para projeto visual; <br>
+                                        - Fazer roteiros e captar material audiovisual para edição e pós-produção de vídeo; <br>
+                                        - Criar cenários e personagens para produção de animação 3D; <br>
+                                        - Desenhar projetos arquitetônicos e criar maquetes eletrônicas; <br>
+                                        - Utilizar softwares do pacote Adobe, como Photoshop, Illustrator, Premiere Pro, Audition e After Effects, além de softwares como CorelDRAW, AutoCAD, Revit, 3Ds Max ou Maya, MudBox, Arnold Render e SketchUp
+                                    </p>
+            
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="curso2" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5p class="modal-title text-dark font-weight-bold text-center">Desenvolvedor Web</h5>
+                                </div>
+                                <div class="modal-body text-dark">
+                                    <figure>
+                                        <img class="d-block" src="img/Desenvolvedor Web.jpg">
+                                    </figure>
+                                    <p class="desccurso text-justify p-2">
+                                        - HTML, CSS e Scripts; <br>
+                                        - Criar design de interface (wireframes) e protótipos;  <br>
+                                        - Publicar, testar e realizar manutenção em aplicações web; <br>
+                                        - Estruturar e implementar banco de dados; <br> 
+                                        - Conceitos de camadas front end e back end; <br>
+                                        - Utilizar softwares do pacote Adobe, como Illustrator e Photoshop, além de softwares como MS Project, Visio, entre outros 
+                                    </p>
+            
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="curso3" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5p class="modal-title text-dark font-weight-bold text-center">Desenvolvimento de Aplicativos Computacionais</h5>
+                                </div>
+                                <div class="modal-body text-dark">
+                                    <figure>
+                                        <img class="d-block" src="img/Desenvolvimento de Aplicativos Computacionais.jpg">
+                                    </figure>
+                                    <p class="desccurso text-justify p-2">
+                                        - Desenvolver softwares para desktops e criar websites para internet; <br>
+                                        - Realizar testes e implantação de softwares computacionais; <br>
+                                        - Idealizar, analisar e planejar o desenvolvimento de softwares; <br>
+                                        - Codificar scripts e desenvolver algoritmos que representam a lógica computacional; <br>
+                                        - Manipular e otimizar imagens vetoriais, bitmaps gráficos e elementos visuais de navegação para web; <br>
+                                        - Executar os processos de codificação, manutenção e documentação de softwares para desktops e para internet; <br>
+                                        - Utilizar comandos de integração dos objetos de bancos de dados com o código construído para internet.
+                                    </p>
+            
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="curso4" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5p class="modal-title text-dark font-weight-bold text-center">Informática para Internet</h5>
+                                </div>
+                                <div class="modal-body text-dark">
+                                    <figure>
+                                        <img class="d-block" src="img/Informática para Internet.jpg">
+                                    </figure>
+                                    <p class="desccurso text-justify p-2">
+                                        - Criar e organizar interface gráfica para dispositivos móveis; <br>
+                                        - Codificar, publicar e testar aplicações web; <br>
+                                        - Documentar e realizar manutenção de aplicações web; <br>
+                                        - Codificar aplicações para dispositivos móveis; <br> 
+                                        - Estruturar e implementar banco de dados para aplicações web; <br>
+                                        - Codificar acesso aos recursos de sistemas operacionais de dispositivos móveis; <br>
+                                        - Utilizar softwares do pacote Adobe, como Illustrator e Photoshop, além de MS Project, SQL Server, Visio, entre outros
+                                    </p>
+            
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="curso5" class="modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5p class="modal-title text-dark font-weight-bold text-center">Segurança em Redes de Computadores</h5>
+                                </div>
+                                <div class="modal-body text-dark">
+                                    <figure>
+                                        <img class="d-block" src="img/Segurança em Redes de Computadores.jpg">
+                                    </figure>
+                                    <p class="desccurso text-justify p-2">
+                                        - Instalar firewall e outros programas de proteção de dados; <br>
+                                        - Monitorar ferramentas e serviços de certificados digitais; <br>
+                                        - Identificar os principais ataques a servidores de redes; <br>
+                                        - Fazer a gestão de redes e tecnologias de segurança; <br>
+                                        - Utilizar softwares reconhecidos na área de tecnologia da informação, entre outros
+                                    </p>
+            
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     
                 
 
-                <section>
-                    <p id="descricao" class="text-center">
-                        Venha conhecer nossas <strong>ofertas</strong>  e <strong>bolsas de estudo</strong>!
-                    </p>
-                </section>
-            </article>    
+                    <section>
+                        <p id="descricao" class=" py-3 border rounded text-center">
+                            Venha conhecer nossas <strong>ofertas</strong>  e <strong>bolsas de estudo</strong>!
+                        </p>
+                    </section>
+                </article>    
+
+            </div>    
             
-            <footer id="rodape" >
+            <footer id="rodape" class="p-2 text-center">
                 <p id="contato" >Entre em contato conosco: (11)99999-9999</p>
                 <p>Copyright© - Todos os Direitos Reservados</p>
             </footer>
